@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Calculator</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+
+<div id="header">
+
+    <h1>A simple Calculator Using Jquery</h1>
+
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <form id="add">
+
+          <h3 class="bg-primary" >Add.</h3>
+
+          <div class="form-group"> <label for="add1">1st number:</label> <input id="add1" class="form-control" type="text"> </div>
+
+          <div class="form-group"> <label for="add2">2nd number:</label> <input id="add2" class="form-control" type="text"> </div>
+
+          <button type="submit" class="btn btn-outline-primary">Add!</button>
+
+        </form>
+
+        <div id="outputAdd"> </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <form id="subtract">
+
+          <h3 class="bg-primary">Subtract.</h3>
+
+          <div class="form-group"> <label for="sub1">1st number:</label> <input id="sub1" class="form-control" type="text"> </div>
+
+          <div class="form-group"> <label for="sub2">2nd number:</label> <input id="sub2" class="form-control" type="text"> </div>
+
+          <button type="submit" class="btn btn-outline-primary">Subtract!</button>
+
+        </form>
+
+        <div id="outputSub"> </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <form id="multiply">
+
+          <h3 class="bg-primary">Multiply.</h3>
+
+          <div class="form-group"> <label for="mult1">1st number:</label> <input id="mult1" class="form-control" type="text"> </div>
+
+          <div class="form-group"> <label for="mult2">2nd number:</label> <input id="mult2" class="form-control" type="text"> </div>
+
+          <button type="submit" class="btn btn-outline-primary">Multiply!</button>
+
+
+        </form>
+
+        <div id="outputMult"> </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <form id="divide">
+
+          <h3 class="bg-primary">Divide.</h3>
+
+          <div class="form-group"> <label for="divi1">1st number:</label> <input id="divi1" class="form-control" type="text"> </div>
+
+          <div class="form-group"> <label for="divi2">2nd number:</label> <input id="divi2" class="form-control" type="text"> </div>
+
+          <button type="submit" class="btn btn-outline-primary">Divide!</button>
+
+        </form>
+
+        <div id="outputDivi"> </div>
+
+      </div>
+
+</div>
+
+<script type="text/javascript" src="scripts.js"></script>
